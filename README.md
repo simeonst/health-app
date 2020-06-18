@@ -15,3 +15,5 @@ Two main views are included:
 Permissions: 
 1) Mandatory: Read Contacts
 2) Optional: Access Fine Location
+
+Link to demo: https://youtu.be/De8pzbDtts8

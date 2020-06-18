@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Encounters</string>
+    <string name="app_title">My Encounters</string>
+    <string name="tab_text_1">Contacts</string>
+    <string name="tab_text_2">Encounters</string>
+
+    <!--    Start up dialog -->
+    <string name="start_up_dialog_title">Application Info</string>
+    <string name="start_up_dialog_description">Your privacy is protected, as no internet access is necessary while all data is only stored locally.</string>
+    <string name="start_up_dialog_positive">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="pref_previously_started"/>
+
+    <!--    Remove contact dialog -->
+    <string name="remove_contact_dialog_title">Remove contact</string>
+    <string name="remove_contact_dialog_description">Do you want to remove this contact event from your list?</string>
+    <string name="remove_contact_dialog_positive">Delete</string>
+    <string name="remove_contact_post">Deleted encounter with </string>
+
+    <!--    Add contact dialog -->
+    <string name="add_contact_dialog_title">Add contact</string>
+    <string name="add_contact_dialog_description">Do you want to add this contact event to your list?</string>
+    <string name="add_contact_dialog_positive">Add</string>
+    <string name="add_contact_post">Added encounter with </string>
+
+    <!--    GPS dialog -->
+    <string name="gps_permission_denied">GPS permission not granted</string>
+    <string name="gps_permission_prompt">Please enable GPS</string>
+
+    <!--    Share -->
+    <string name="share_icon_text">Share encounters</string>
+    <string name="name">Name: \u0020</string>
+    <string name="phone">\nPhone: \u0020</string>
+    <string name="date">\nDate/time: \u0020</string>
+    <string name="latitude">\nLatitude: \u0020</string>
+    <string name="longitude">\nLongitude: \u0020</string>
+
+    <!--    Deny Contacts Permission dialog -->
+    <string name="contact_permission_dialog_title">Contacts Permission</string>
+    <string name="contact_permission_dialog_description">This app requires access to contacts in order to run. Contacts are only stored locally, and encounters can only be shared by you.</string>
+    <string name="contact_permission_dialog_positive">OK</string>
+
+    <!--    Settings Contacts Permission dialog -->
+    <string name="settings_permission_dialog_description">You have denied Contacts permission. Please allow this permission at Settings -> Permissions</string>
+    <string name="settings_permission_dialog_positive">Go to Settings</string>
+    <string name="settings_permission_dialog_cancel">No, exit app!</string>
+
+    <string name="settings_permission_dialog_description_attempt">This app needs Contacts permission in order to work.</string>
+    <string name="settings_permission_dialog_grant">Yes, grant permission</string>
+
+</resources>

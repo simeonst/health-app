@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Blurred dialog -->
+
+    <style name="BlurredDialogHeader">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <style name="BlurredDialogDescription">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_grey</item>
+    </style>
+
+    <style name="BlurredDialogButtonsNegativeRounded" >
+
+    </style>
+
+    <color name="alert_dialog_background">@android:color/white</color>
+
+    <dimen name="alert_dialog_border_radius">16dp</dimen>
+    <dimen name="alert_dialog_elevation">8dp</dimen>
+
+    <dimen name="dialog_small_radius">8dp</dimen>
+    <dimen name="dialog_big_radius">14dp</dimen>
+
+
+</resources>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Zdravko</string>
+    <string name="app_title">Zdravko</string>
+    <string name="tab_text_1">Контакти</string>
+    <string name="tab_text_2">Сусрети</string>
+
+    <!--    Start up dialog -->
+    <string name="start_up_dialog_title">Информације о апликацији</string>
+    <string name="start_up_dialog_description">Ваша приватност је заштићена, јер није потребан приступ интернету, док су сви подаци похрањени само локално.</string>
+    <string name="start_up_dialog_positive">Потврди</string>
+    <string name="dialog_cancel">Поништи</string>
+
+    <string name="pref_previously_started"/>
+
+    <!--    Remove contact dialog -->
+    <string name="remove_contact_dialog_title">Обриши контакт</string>
+    <string name="remove_contact_dialog_description">Да ли желите да уклоните овај контакт са своје листе?</string>
+    <string name="remove_contact_dialog_positive">Избриши</string>
+    <string name="remove_contact_post">Избрисан је сусрет са </string>
+
+    <!--    Add contact dialog -->
+    <string name="add_contact_dialog_title">Додај контакт</string>
+    <string name="add_contact_dialog_description">Да ли желите да додате овај контакт на свој списак?</string>
+    <string name="add_contact_dialog_positive">Додати</string>
+    <string name="add_contact_post">Додат је сусрет са </string>
+
+    <!--    GPS dialog -->
+    <string name="gps_permission_denied">ГПС дозвола није дата</string>
+    <string name="gps_permission_prompt">Молимо омогућите ГПС</string>
+
+    <string name="share_icon_text">Делите сусрете</string>
+    <string name="name">Име: \u0020</string>
+    <string name="phone">\nТелефон: \u0020</string>
+    <string name="date">\nДатум/време: \u0020</string>
+    <string name="latitude">\nГеографска ширина: \u0020</string>
+    <string name="longitude">\nГеографска дужина: \u0020</string>
+
+
+    <!--    Deny Contacts Permission dialog -->
+    <string name="contact_permission_dialog_title">Дозвола контаката</string>
+    <string name="contact_permission_dialog_description">Овој апликацији је потребан приступ контактима да би се покренула. Контакти се чувају само локално, а списак сусрета можете делити само ви.</string>
+    <string name="contact_permission_dialog_positive">OK</string>
+
+    <!--    Settings Contacts Permission dialog -->
+    <string name="settings_permission_dialog_description">Одбили сте дозволу за контакте. Молимо дозволите ову дозволу у подешавањима -> Дозволе</string>
+    <string name="settings_permission_dialog_positive">Идите на Подешавања</string>
+    <string name="settings_permission_dialog_cancel">Не, излаз из апликације!</string>
+    <string name="settings_permission_dialog_description_attempt">Овој апликацији је потребна дозвола за контакте да би могла да функционише.</string>
+    <string name="settings_permission_dialog_grant">Да, дајте дозволу</string>
+</resources>

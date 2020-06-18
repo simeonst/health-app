@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:padding="24dp"
+    tools:context="com.healthapp.util.BlurredDialogFragment">
+
+    <com.healthapp.ui.custom.RoundedConstraintLayout
+        android:id="@+id/dialogParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/blurredDialogHeader"
+            style="@style/BlurredDialogHeader"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"
+            tools:text="Dialog header" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/blurredDialogDesc"
+            style="@style/BlurredDialogDescription"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/blurredDialogHeader"
+            tools:text="Alert dialog description. This fits some medium sized text. Something like 'Lorem ipsum' texts could be pasted here" />
+
+        <LinearLayout
+            android:id="@+id/blurred_dialog_buttons_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|bottom"
+            android:layoutDirection="rtl"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/blurredDialogDesc"
+            tools:gravity="center_horizontal"
+            tools:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/blurredDialogPositiveButton"
+                style="@style/ButtonFoundation.Positive"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                tools:text="Proceed" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/blurredDialogNeutralButton"
+                style="@style/ButtonFoundation.Positive"
+                android:layout_weight="1"
+                android:visibility="visible"
+                tools:text="Neutral"
+                tools:visibility="gone" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/blurredDialogNegativeButton"
+                style="@style/ButtonFoundation.Negative"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:layoutDirection="ltr"
+                tools:text="Cancel"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+    </com.healthapp.ui.custom.RoundedConstraintLayout>
+
+</LinearLayout>

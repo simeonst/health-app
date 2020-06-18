@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FD0010</color>
+    <color name="colorPrimaryDark">#B40010</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_dark">#323232</color>
+    <color name="text_grey">#B0B4C2</color>
+    <color name="button_dialog_positive">#FF1639</color>
+    <color name="button_dialog_negative">#F5F7FB</color>
+    <color name="contact_icon_background">#F5F7FB</color>
+    <color name="meeting_minus_background">#D8F1FF</color>
+    <color name="list_separator_line_color">#D6D7DD</color>
+</resources>

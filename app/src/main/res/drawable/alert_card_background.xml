@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid
+        android:color="@color/alert_dialog_background"
+        />
+
+    <padding
+        android:top="@dimen/alert_dialog_elevation"
+        android:bottom="@dimen/alert_dialog_elevation"
+        android:left="@dimen/alert_dialog_elevation"
+        android:right="@dimen/alert_dialog_elevation"/>
+
+    <corners android:radius="@dimen/alert_dialog_border_radius" />
+
+</shape>
